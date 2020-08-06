@@ -30,7 +30,7 @@ For all the above requests use Authorization as header and set the value as 'JWT
         "supplier_id":<iid_of_supplier>,
         "item_id":<item_id>,
         "received": <boolean_value_for_item_recieved>,
-        "date": <date>(In the form: "2012-01-01T23:30:00+02:00")
+        "date": <date> (In the form: "2012-01-01T23:30:00+02:00")
     }
     You will recieve back the all the detalils of items and supplier along with the purchase information.
     Similarly for all the other operations described in step 5 use '/purchase/<id>'
@@ -38,7 +38,7 @@ For all the above requests use Authorization as header and set the value as 'JWT
 8. For Placing the order of the items use '/order/<id>' and also provide,
     {
         "item_id": <item_id_to_order>,
-        "date": <date>(In the form: "2012-01-01T23:30:00+02:00")
+        "date": <date> (In the form: "2012-01-01T23:30:00+02:00")
     }
     After Placing the order the items table will have it appended in its order list.
     Similarly for all the other operations described in step 5 use '/order/<id>'
